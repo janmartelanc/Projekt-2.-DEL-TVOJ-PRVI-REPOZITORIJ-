@@ -1,0 +1,25 @@
+body{
+	background-color:cornflowerblue;
+}
+table{
+	margin: 0 auto;
+}
+.barva{
+	background-color:aqua
+}
+h1{
+	text-align: center;
+}
+.poz{
+	text-align:center;
+}
+.sig{
+	text-align:right;
+}
+tr{
+	background-color:gainsboro;
+}
+p{
+	font-size:10px;
+	text-align:center;
+}

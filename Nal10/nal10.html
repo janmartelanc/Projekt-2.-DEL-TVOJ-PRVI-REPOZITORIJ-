@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+<title>Prijavnica za udeležbo na konferenci</title>
+<link rel="stylesheet" href="style10.css">
+</head>
+<body>
+<h1>Prijavnica za udeležbo na konferenci</h1>
+<form action="" method="POST">	
+	<table border="1">
+		<tr>
+			<th colspan="2" class="barva">Podatki o udeležencu</th>
+		</tr>
+		<tr>
+			<td class="sig"><b>Ime*:</b></td>
+			<td><input type="text" name="ime" required></td>
+		</tr>
+		<tr>
+			<td class="sig"><b>Priimek*:</b></td>
+			<td><input type="text" name="priimek" required></td>
+		</tr>
+		<tr>
+			<td class="sig"><b>Spol*:</b></td>
+			<td>M<input type="radio" name="spol" value="moški" required>Ž<input type="radio" name="spol"value="ženska" required></td>
+		</tr>
+		<tr>
+			<td class="sig"><b>Naslov*:</b></td>
+			<td> Kraj,Ulica:<input type="text" name="kraj" required></br>
+			Hišna številka:<input type="text" name="hiša" required></br>
+			Pošta:<input type="text" name="pošta" required></br>
+			</td>
+		</tr>
+		<tr>
+			<td name="država" class="sig"><b>Država*:</b></td>
+			<td><select required>
+			<option value="slovenija">Slovenija</option>
+			<option value="hrvaška">Hrvaška</option>
+			<option value="avstrija">Avstirja</option>
+			<option value="madžarska">Madžarska</option>
+			<option value="italija">Italija</option>
+			</td>
+		</tr>
+		<tr>
+			<td class="sig"><b>Telefonska številka:</b></td>
+			<td><input type="text" name="telefon" style="width:50px"><input type="text" name="telefon1"></td>
+		</tr>
+		<tr>
+			<td class="sig"><b>E-mail naslov:</b></td>
+			<td><input type="text" name="email">@<input type="text" name="email1"></td>
+		</tr>
+		<tr>
+			<th colspan="2" class="barva">Drugo</th>
+		</tr>
+		<tr>
+			<td class="sig"><b>Stopnja zaključene izobrazbe:</b></td>
+			<td><input type="text" name="stopnja"></td>
+		</tr>
+		<tr name="predavanja">
+			<td class="sig"><b>Predavanja, ki se jih nameravam udeležit na konferenci:</b></td>
+			<td><input type="checkbox" value="predavanje">Ali so IPv6 tuneli varnostna grožnja</br>
+			<input type="checkbox" value="predavanje">Elektronski nadzor nad delom zaposlenih</br>
+			<input type="checkbox" value="predavanje">Informacijska varnost, standardi, in usklajenost</br>
+			<input type="checkbox" value="predavanje">DNS hacking, Google hacking in šekak hacking</br>
+			<input type="checkbox" value="predavanje">Posegi v komunikacijsko zasebnost po noveli ZKPJ</br>
+			</td>
+		</tr>
+		<tr>
+			<td class="sig"><b>V kolikor imate še kakšno opomo jo upišite sem:</b></td>
+			<td><textarea style="height:60px">Ni opomb.</textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="poz">Vpišite vaše geslo:<input type="text" name="geslo" style="width:100px">, in <input type="submit" value="oddajte prijavo"></td>
+		</tr>
+	</table>
+</form>
+<p>Polja označena z * so obvezna.</p>
