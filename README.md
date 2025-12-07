@@ -39,7 +39,7 @@ Input za izbor možnosti (radio) :
 ```html
 <input type="radio" name="spol" value="moški">
 ```
-![alt text]()
+![alt text](https://github.com/janmartelanc/Projekt-2.-DEL-TVOJ-PRVI-REPOZITORIJ-/blob/d823893d9bd2d333832dbaaac822378ef2b63088/slike/3.PNG)
 
 Input za izbor možnosti (select) :
 
@@ -47,28 +47,28 @@ Input za izbor možnosti (select) :
 <select required>
 <option value="Slovenija">Slovenija</option>
 ```
-![alt text]()
+![alt text](https://github.com/janmartelanc/Projekt-2.-DEL-TVOJ-PRVI-REPOZITORIJ-/blob/d823893d9bd2d333832dbaaac822378ef2b63088/slike/4.PNG)
 
 Input za izbor možnosti (checkbox) :
 
 ```html
 <input type="checkbox" value="predavanje">Ali so IPv6 tuneli varnostna grožnja</br>
 ```
-![alt text]()
+![alt text](https://github.com/janmartelanc/Projekt-2.-DEL-TVOJ-PRVI-REPOZITORIJ-/blob/d823893d9bd2d333832dbaaac822378ef2b63088/slike/5.PNG)
 
 Input za večjo količino teksta :
 
 ```html
 <textarea style="height:60px">Ni opomb.</textarea>
 ```
-![alt text]()
+![alt text](https://github.com/janmartelanc/Projekt-2.-DEL-TVOJ-PRVI-REPOZITORIJ-/blob/d823893d9bd2d333832dbaaac822378ef2b63088/slike/6.PNG)
 
 Gumb za odposlati svojo izbiro :
 
 ```html
 <input type="text" name="geslo" style="width:100px">
 ```
-![alt text]()
+![alt text](https://github.com/janmartelanc/Projekt-2.-DEL-TVOJ-PRVI-REPOZITORIJ-/blob/d823893d9bd2d333832dbaaac822378ef2b63088/slike/7.PNG)
 
 ### Dodatne stvari
 
