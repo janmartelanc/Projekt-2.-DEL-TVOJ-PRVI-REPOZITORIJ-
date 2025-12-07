@@ -32,7 +32,7 @@ Input za tekst :
 ```html
 <input type="text" name="ime">
 ```
-![alt text]()
+![alt text](https://github.com/janmartelanc/Projekt-2.-DEL-TVOJ-PRVI-REPOZITORIJ-/blob/d823893d9bd2d333832dbaaac822378ef2b63088/slike/2.PNG)
 
 Input za izbor možnosti (radio) :
 
